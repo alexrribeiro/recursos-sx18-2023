@@ -1,6 +1,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,4 +12,30 @@ body {
 
 a {
     color: #FF9900;
+}
+
+.cabecalho {
+    background-color: #000040;
+    height: 5rem;
+}
+
+.cabecalho-barra {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    height: 100%;
+
+    border: 1px solid red;
+}
+
+.cabecalho-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: center;
+}
+
+.cabecalho-menu {
+    align-self: center;
 }
