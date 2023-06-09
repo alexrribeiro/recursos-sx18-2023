@@ -64,3 +64,35 @@ body {
 .principal-texto {
     padding-bottom: 0.75rem;
 }
+
+.rodape {
+    /* border: 1px solid red; */
+
+    height: 5rem;
+    background-color: #000040;
+}
+
+.rodape-conteudo {
+    /* border: 1px solid yellow; */
+
+    width: 80%;
+    height: 100%;
+    margin: 0 auto; /* centralizar */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-info {
+    /* border: 1px solid lime; */
+    align-self: center;
+}
+
+.rodape-redes {
+    /* border: 1px solid cyan; */
+    align-self: center;
+}
+
+.rodape-icone {
+    width: 2.5rem;
+    height: 2.5rem;
+}
