@@ -65,6 +65,28 @@ body {
     padding-bottom: 0.75rem;
 }
 
+.principal-linha {
+    border: 1px dashed #0000FF;
+}
+
+.principal-subtitulo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFAA00;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.principal-marcadores {
+    list-style: square; /* estilo quadrado */
+    /* para círculo vazado: circle, para círculo cheio: disc */
+    /* para nenhum: none */
+}
+
+.principal-numeracao {
+    list-style: decimal-leading-zero;
+}
+
 .rodape {
     /* border: 1px solid red; */
 
@@ -95,4 +117,9 @@ body {
 .rodape-icone {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.rodape-icone:hover {
+    background-color: #000000;
+    border-radius: 100%;
 }
