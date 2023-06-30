@@ -63,7 +63,6 @@ body {
 
 .principal-texto {
     padding-bottom: 0.75rem;
-    clear: both;
 }
 
 .principal-linha {
@@ -76,6 +75,7 @@ body {
     color: #FFAA00;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    clear: both;
 }
 
 .principal-marcadores {
@@ -90,14 +90,22 @@ body {
 
 .principal-caixa {
     display: block;
+    min-height: calc(324px + 3rem);
 
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
 }
 
 .principal-imagem {
     width: 576px; /* Largura da imagem */
     height: 324px; /* Altura da imagem */
     float: left; /* Imagem a esquerda, texto a direita */
+    margin-right: 0.5rem;
+}
+
+.principal-video {
+    width: 560px;
+    float: left;
+    margin-right: 0.5rem;
 }
 
 .rodape {
