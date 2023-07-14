@@ -108,6 +108,38 @@ body {
     margin-right: 0.5rem;
 }
 
+.principal-tabela {
+    width: 80%;
+    background-color: #000080;
+    border: 1px solid #0000AA;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.principal-tabela th {
+    border: 1px solid #0000AA;
+    background-color: #222222;
+    color: #AAAAAA;
+    padding: 5px;
+}
+
+.principal-tabela tr {
+    border: 1px dashed #0000AA;
+}
+
+.principal-tabela td {
+    border: 1px dashed #0000AA;
+    padding: 5px;
+}
+
+.principal-tabela tr:nth-child(even) {
+    background-color: #000090;
+}
+
+.principal-tabela tr:hover {
+    background-color: #000066;
+}
+
 .rodape {
     /* border: 1px solid red; */
 
